@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f37630;
+  background-image: url(../img/bg_product.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50vmax;
+  position: relative;
+}
+
+.custom-nav {
+  border-radius: 2rem;
+}
+
+.custom-nav .navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+.custom-nav .navbar-brand span {
+  color: #f37630;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.5em;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #f37630;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-left: 2.4em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #cb500c;
+}
+
+.custom-section {
+  margin-top: 10em;
+}
+
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #ffffff;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 3rem;
+  color: #603143;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-section p {
+  color: #603143;
+  font-size: 1.1rem;
+  margin-top: 2em;
+}
+
+.custom-section a {
+  margin-top: 2em;
+  display: inline-block;
+  color: white;
+  background-color: #15b4a8;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+.custom-section a:hover {
+  color: #15b4a8;
+  border: 1px solid #15b4a8;
+  background-color: #ffffff;
+}
+
+#contact .form .btn-kirim {
+  display: inline-block;
+  color: white;
+  background-color: #15b4a8;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+#contact .form .btn-kirim:hover {
+  color: #15b4a8;
+  border: 1px solid #15b4a8;
+  background-color: #ffffff;
+}
+
+#about,
+#contact {
+  background-color: #ffffff;
+}
+
+.footer .footer-icon {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-icon .icons .fa-instagram {
+  color: #ffffff;
+}
+
+.footer .footer-icon .icons .fa-instagram:hover {
+  color: #15b4a8;
+  background-color: #f37630;
+}
+
+.footer .footer-icon .icons .fa-whatsapp {
+  color: #ffffff;
+}
+
+.footer .footer-icon .icons .fa-whatsapp:hover {
+  color: #15b4a8;
+  background-color: #f37630;
+}
+
+.footer .footer-icon .icons .fa-twitter {
+  color: #ffffff;
+}
+
+.footer .footer-icon .icons .fa-twitter:hover {
+  color: #15b4a8;
+  background-color: #f37630;
+}
+
+.footer .footer-icon .icons .fa-linkedin {
+  color: #ffffff;
+}
+
+.footer .footer-icon .icons .fa-linkedin:hover {
+  color: #15b4a8;
+  background-color: #f37630;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #15b4a8;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+/*# sourceMappingURL=main.css.map */
